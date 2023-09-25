@@ -278,4 +278,3 @@ to - from作为strndupa的size实参
 
 而strndupa是使用了alloca实现的strndup，存在_libc_use_alloca保证安全的alloca调用，因此在to-from也就是，即conf 中 module name 极端长的情况下会程序会crash (SIGSEV)
 
-其实基本没利用价值
